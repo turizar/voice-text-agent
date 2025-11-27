@@ -1,0 +1,20 @@
+# Dependencies for Complete Voice Agent
+#
+# IMPORTANT: Python 3.10 or higher is required
+# The TTS library and its dependencies (specifically 'bangla') require Python 3.10+
+# due to the use of union type syntax (e.g., bool | None)
+#
+# To check your Python version: python3 --version
+# To create a virtual environment with Python 3.10+: python3.10 -m venv venv (or python3.11, python3.12, etc.)
+#
+torch>=2.0.0
+streamlit>=1.28.0
+soundfile>=0.12.0
+numpy>=1.21.0
+
+# TTS (Text-to-Speech) - Main engine
+TTS>=0.22.0
+
+# STT (Speech-to-Text) - Speech recognition
+SpeechRecognition>=3.10.0
+audio-recorder-streamlit>=0.0.8
